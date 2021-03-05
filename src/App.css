@@ -12,7 +12,7 @@ body, html {
 }
 
 .parallax-image1 {
-  background-image: url(./resources/images/floodlights-mountain.jpg);
+  background-image: url(../src/resources/images/floodlights-mountain.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,7 @@ body, html {
 }
 
 .parallax-image2 {
-  background-image: url(./resources/images/floodlights-empty.jpg);
+  background-image: url(../src/resources/images/floodlights-empty.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -52,11 +52,27 @@ body, html {
   background-size: cover;
 }
 
-.parallax-image3 {
-  background-image: url(./resources/images/floodlights-drizzle.jpg);
+/* .parallax-image3 {
+  background-image: url(../src/resources/images/floodlights-drizzle.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer-socials {
+  color: #fff;
 }

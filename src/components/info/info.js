@@ -5,12 +5,10 @@ const Info = () => {
     <section className="contact">
       <div className="parallax-image2">
         <div className="address">
-          <div className="address">
-            Roding Lane <br />
-            Chigwell <br />
-            Essex <br />
-            IG7 6BE 
-          </div>
+          Roding Lane <br />
+          Chigwell <br />
+          Essex <br />
+          IG7 6BE 
         </div>
         <div className="telephone">
           <span>

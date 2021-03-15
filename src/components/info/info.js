@@ -6,12 +6,7 @@ const Info = () => {
       <div className="parallax-image2">
         <div className="contact-wrapper">
           <div className="contact-left">
-            <div className="address">
-              Roding Lane <br />
-              Chigwell <br />
-              Essex <br />
-              IG7 6BE 
-            </div>
+  
           </div>
           <div className="contact-right">
             <div className="map_wrapper">      

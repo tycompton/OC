@@ -16,16 +16,17 @@ body, html {
 .parallax-image1 {
   background-image: url(../src/resources/images/floodlights-mountain.jpg);
   height: 100vh;
+  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: scale 25s;
+  animation: scale 15s ease;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);
@@ -33,8 +34,11 @@ body, html {
 }
 
 .title {
+  margin: 0;
   position: absolute;
-  top: 40%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   width: 100%;
   text-align: center;
   color: #fff;

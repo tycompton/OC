@@ -8,7 +8,6 @@ import Footer from './components/footer/footer.js';
 function App() {
   return (
     <div className="container">
-      <AppBar />
       <Home />
       <Info />
       <Footer />

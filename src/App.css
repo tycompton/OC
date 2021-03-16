@@ -42,7 +42,7 @@ body, html {
   width: 100%;
   text-align: center;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bolder;
 }
 .title h1 {
@@ -51,13 +51,13 @@ body, html {
 
 @media (min-width: 540px) {
   .title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 740px) {
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -72,38 +72,38 @@ body, html {
 
 
 /** Info **/
-.contact-wrapper {
+.location-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.contact-left {
-  width: 40%;
+.info {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 3rem;
   text-align: center;
 }
 
-.contact-right {
+.map {
   width: 90%;
   margin: 1rem;
 }
 
 @media (min-width: 768px) {
-  .contact-wrapper {
+  .location-wrapper {
     flex-direction: row;
   }
 
-  .contact-left {
-    font-size: 2rem;
+  .info {
+    font-size: 1.5rem;
     margin: 1rem;
+    width: 50%;
   }
 
-  .contact-right {
-    width: 60%;
+  .map {
+    width: 50%;
   }
 }
 

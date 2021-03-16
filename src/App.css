@@ -64,6 +64,7 @@ body, html {
 .parallax-image2 {
   background-image: url(../src/resources/images/floodlights-empty.jpg);
   height: 100vh;
+  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,8 +75,7 @@ body, html {
 /** Info **/
 .location-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
@@ -91,9 +91,18 @@ body, html {
   margin: 1rem;
 }
 
+.address {
+  line-height: 1rem;
+}
+
+.fontawesome-location {
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
   .location-wrapper {
     flex-direction: row;
+    justify-content: center;
   }
 
   .info {

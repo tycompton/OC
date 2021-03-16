@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faMobile } from '@fortawesome/free-solid-svg-icons';
 
 const Info = () => {
   return (
@@ -7,16 +9,19 @@ const Info = () => {
         <div className="location-wrapper">
           <div className="info">
             <div className="address">
-              <i className="fas fa-map-marker-alt"></i>
-              <i className="fas fa-map-marker-alt"></i>
-              <p>Roding Lane</p>
-              <p>Chigwell</p>
-              <p>Essex</p>
-              <p>IG7 6BE</p>
+              <div className="fontawesome-location">
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </div>
+              <p className="address-paragraph">Roding Lane</p>
+              <p className="address-paragraph">Chigwell</p>
+              <p className="address-paragraph">Essex</p>
+              <p className="address-paragraph">IG7 6BE</p>
             </div>
             <div className="telephone">
-              <i className="fas fa-mobile"></i>
-                <p>020 8123 1234</p>
+              <div className="fontawesome-location">
+                <FontAwesomeIcon icon={faMobile} />
+              </div>
+                <p>020 8500 2477</p>
             </div>
           </div>
           <div className="map">      

@@ -7,14 +7,15 @@ const Info = () => {
         <div className="location-wrapper">
           <div className="info">
             <div className="address">
-              <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+              <i className="fas fa-map-marker-alt"></i>
+              <i className="fas fa-map-marker-alt"></i>
               <p>Roding Lane</p>
               <p>Chigwell</p>
               <p>Essex</p>
               <p>IG7 6BE</p>
             </div>
             <div className="telephone">
-              <a class="btn-floating blue accent-1"><i class="fas fa-mobile"></i></a>
+              <i className="fas fa-mobile"></i>
                 <p>020 8123 1234</p>
             </div>
           </div>

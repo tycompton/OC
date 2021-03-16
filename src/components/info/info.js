@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
   return (
-    <section className="location">
+    <section className="location" id="directions">
       <div className="parallax-image2">
         <div className="location-wrapper">
           <div className="info">
